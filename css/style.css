@@ -1,0 +1,159 @@
+:root {
+    --main-font: 'Poppins', sans-serif;
+    --head-color: #0A0826;
+    --text-color: #6C6C6C;
+    --main-color:#3F87F5;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--main-font);
+    color: var(--head-color);
+}
+
+p {
+    color: var(--text-color);
+    font-family: var(--main-font);
+}
+/* Header */
+.nav-brand {
+    color:#3E3E3E !important;
+    font-weight: 700 !important;
+    font-family: var(--main-font);
+    font-size: 22px !important;
+    text-decoration: none;
+
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 1rem;
+    color:#3E3E3E;
+    padding: 0px 1.8rem !important;
+}
+.img_one {
+    background: url("/images/banner.png") no-repeat;
+    height: 584px;
+    width: 100%;
+    background-size: cover;
+}
+.img_one h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+.img_one p {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 24px;
+}
+.button {
+    padding: 10px 43px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.white {
+    color: var(--main-color);
+}
+.blue {
+    background: var(--main-color);
+    color: #ffffff;
+}
+.common_header {
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+    margin: 100px 0px; 
+}
+/* Priceing Table */
+ul.price_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.price_item {
+    font-family: var(--main-font);
+    font-size: 14px;
+    color: #848199;
+    font-weight: 400;
+    padding: 4px 0px;
+
+}
+
+.card {
+    border: none !important;
+}
+h2.card-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+h4.card-subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+p.card-text {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+}
+p.card-text {
+    color: #848199;
+}
+.card.bg-card {
+    background: var(--main-color);
+    border-radius: 26px;
+    padding: 30px;
+    color: white;
+    position: relative;
+    top: -64px;
+    box-shadow: 0px 18px 30px #3f87f56b;
+}
+.bg-card .card-text {
+    color: #ffffff;
+}
+.bg-card ul li {
+    color: #ffffff;
+}
+.bg-card button {
+    background: white !important;
+    color: var(--main-color);
+}
+section#pack {
+    margin-top: 150px;
+}
+.inner_client.text-center p {
+    width: 253px;
+    margin: 0 auto;
+}
+.inner_client.text-center {
+    padding: 1.4rem;
+    box-shadow: 0px 18px 30px #3f87f521;
+}
+/* Footer */
+#footer {
+    background-color: #07051b;
+    color: white;
+}
+footer#footer h6 {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* Custom responsive */
+@media screen and (max-width:540px) {
+    section#pack {
+        margin-top: 30px;
+    }
+    .common_header {
+        margin: 20px 0px; 
+    }
+}
